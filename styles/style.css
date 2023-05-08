@@ -1,0 +1,456 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    font-family: Montserrat;
+    background-color: #000;
+
+}
+header{
+    display: flex;
+    position: fixed;
+    width: 120px;
+    height: 100%;
+    background-color: #222;
+    flex-direction: column;
+}
+#avatar{
+    width: 100%;
+    height: 133px;
+    filter:contrast(60%);
+}
+.main-menu{
+    width: 100%;
+}
+.main-menu:hover{
+    background-color: #000;
+}
+.main-menu:active{
+    background-color: #000;
+}
+.one-menu{
+    width: 100%;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.fa-solid{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+.one-menu p{
+    font-size: 12px;
+
+}
+
+.main-menu a{
+    text-decoration: none;
+    color: #fff;
+}
+
+main{
+    width: calc(100% - 120px);
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.header h1{
+    color:#fff;
+    font-size: 64px;
+    font-weight: 400;
+    margin: 70px 0 25px 0; 
+    width: auto;
+    text-align: center;
+}
+#im2{
+    display: none;
+}
+.header p{
+    color:#fff;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+.header img{
+    max-width: 100%;
+    height: auto;
+}
+nav{
+    display: none;
+    width: 100%;
+    height: 35px;
+    background-color:#000;
+    color: gray;
+
+}
+.navbar{
+    width: 25%;
+    font-size: 13px;
+    font-weight:600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+nav:hover{
+    color: #fff;
+}
+.navbar:hover{
+    background-color: gray;
+    color: #000;
+    cursor: pointer;
+}
+.my-name{
+    width: 980px;
+}
+.my-name h2{
+    color: #f1f1f1;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 100px;
+}
+.my-name hr{
+    border-top: 1px solid #eee;
+    width: 200px;
+    margin: 25px 0;
+    opacity: 0.60;
+
+}
+.my-name p{
+    color: #757575;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.my-skills{
+    width: 980px;
+}
+.my-skills h3{
+    color: #f1f1f1;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.my-skills >p{
+    letter-spacing: 4px;
+    color: #757575;
+    margin: 17px 0;
+
+}
+.skill{
+    height: 28px;
+    width: 100%;
+    background-color: #fff;
+    font-size: 15px;
+
+
+}
+.photography-fill{
+    height: 28px;
+    width: 90%;
+    background-color: #757575;
+}
+.Web-design-fill{
+    height: 28px;
+    width: 80%;
+    background-color: #757575;
+}
+.Photoshop-fill{
+    height: 28px;
+    width: 70%;
+    background-color: #757575;
+}
+.boxes{
+    height: 122px;
+    width: 980px;
+    background-color: #f1f1f1;
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 40px;
+}
+.box{
+    width: 24%;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.matn{
+    font-size: 15px;
+}
+.resume{
+    background-color: #f1f1f1;
+    color: black;
+    height: 45px;
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.fa-download{
+    color: #000;
+    font-size: 15px;
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+}
+.my-price{
+    width: 980px;
+    margin-bottom: 50px;
+}
+.my-price h3{
+    color: #f1f1f1;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.price-boxes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.pricebox{
+    width: 49.2%;
+    height: 530px;
+    background-color: #616161;
+    text-align: center;
+    opacity: 0.6;
+}
+.pricebox:hover{
+    opacity: 1;
+}
+.one-pb{
+    height: 100px;
+    font-size: 24px;
+    background-color: #616161;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two-pb , .three-pb , .four-pb , .five-pb{
+    height: 55px;
+    font-size: 15px;
+    background-color: #fff;
+    color: #000;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.six-pb{
+    height: 120px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.six-pb .dolar{
+    color:#000;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.six-pb .per{
+    opacity: 0.60;
+    font-size: 15px;
+
+
+}
+.seven-pb{
+    height: 85px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-pb{
+    width: 110px;
+    height: 45px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn-pb:hover{
+    background-color: #000;
+    color: #fff;
+}
+.Reputation{
+    width: 980px;
+    margin-bottom: 100px;
+}
+
+.Reputation h3{
+    color: #f1f1f1;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.rep{
+    display: flex;
+    align-items:center;
+    justify-content:left;
+
+}
+.rep img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.rep p:first-child{
+    color:#757575;
+    font-size: 18px;
+
+}
+.rep p{
+    color:#757575;
+    font-size: 15px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.my-photos{
+    width: 980px;
+}
+
+.my-photos h2{
+    color: #f1f1f1;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 100px;
+}
+.my-photos hr{
+    border-top: 1px solid #eee;
+    width: 200px;
+    margin: 25px 0;
+    opacity: 0.60;
+}
+.photos-c{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.photos-c1{
+    width: 49.2%;
+    flex-direction: column;
+}
+.photos-c2{
+    width: 49.2%;
+    flex-direction: column;
+
+}
+.photos-c img{
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+
+
+@media (max-width: 1150px){
+    .my-name{
+        width: 95%;
+        margin: auto;
+    }
+    .my-skills{
+        width: 95%;
+        margin: auto;
+    }
+    .boxes{
+        width: 100%;
+        margin: 50px auto 50px auto;
+    }
+    .my-price{
+        width: 95%;
+        margin: auto;
+    }
+    .Reputation{
+        width: 95%;
+        margin: auto;
+    }
+    .my-photos{
+        width: 95%;
+
+    }
+
+
+}
+@media (max-width: 600px){
+    .header {
+        width: 85%;
+    }    
+    header{
+        display: none;
+    }
+    nav {
+        display: flex;
+    }
+    main{
+        width: 92%;
+        margin: auto;
+    }
+    #im {
+        display: none;
+    }
+    #im2{
+        display: block;
+    }
+    .boxes{
+        height: 394px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .price-boxes{
+        display: flex;
+        flex-direction: column;
+    }
+    .pricebox{
+        width: 100%;
+        margin: 15px auto;
+    }
+    .photos-c{
+        flex-direction: column;
+    }
+    .photos-c1{
+        width: 100%;
+    }
+    .photos-c2{
+        width: 100%;
+    
+   
+}
