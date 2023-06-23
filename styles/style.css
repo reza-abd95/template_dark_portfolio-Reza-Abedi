@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 ::selection {
     color: #757575;
@@ -169,7 +170,7 @@ nav:hover a{
 }
 .my-skills hr{
     border-top: 1px solid #eee;
-    width: 200px;
+    width: 170px;
     margin: 25px 0;
     opacity: 0.60;
 }
@@ -257,6 +258,7 @@ nav:hover a{
     display: flex;
     align-items:center;
     justify-content:left;
+    margin-top: 20px;
 
 }
 .education__part img{
@@ -277,6 +279,12 @@ nav:hover a{
     font-size: 15px;
     margin-top: 25px;
 }
+.reptext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 25px;
+}
 .contact{
     width: 980px;
     height: 500px;
@@ -290,10 +298,29 @@ nav:hover a{
 }
 .contact hr{
     border-top: 1px solid #eee;
-    width: 200px;
-    margin: 25px 0;
+    width: 650px;
+    margin: 25px 0 50px 0;
     opacity: 0.60;
 }
+.contact__logo{
+    display: flex;
+    justify-content: space-around;
+
+}
+.social {
+    transition: 0.2s;
+    background-color:#000;
+    width: 80px;
+    filter: opacity(70%);
+
+}
+.social:hover {
+
+    filter: opacity(100%);
+
+}
+
+
 
 
 @media (max-width: 1150px){
@@ -305,14 +332,7 @@ nav:hover a{
         width: 95%;
         margin: auto;
     }
-    .boxes{
-        width: 100%;
-        margin: 50px auto 50px auto;
-    }
-    .my-price{
-        width: 95%;
-        margin: auto;
-    }
+
     .education{
 
         width: 95%;
@@ -323,6 +343,15 @@ nav:hover a{
 
     }
 
+
+
+}
+@media (max-width: 770px){
+
+    .contact hr{
+        width: 520px;
+
+    }
 
 }
 @media (max-width: 600px){
@@ -345,28 +374,22 @@ nav:hover a{
     #im2{
         display: block;
     }
-    .boxes{
-        height: 394px;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .price-boxes{
-        display: flex;
-        flex-direction: column;
-    }
-    .pricebox{
-        width: 100%;
-        margin: 15px auto;
-    }
-    .photos-c{
-        flex-direction: column;
-    }
-    .photos-c1{
-        width: 100%;
-    }
-    .photos-c2{
-        width: 100%;
+    .contact hr{
+        width: 440px;
+
+    }   
+    .social {
+
+        width: 60px;
     
+    }
+}
+@media (max-width: 490px){
+
+    .contact hr{
+        width: 330px;
+
+    }
+
    
 }
