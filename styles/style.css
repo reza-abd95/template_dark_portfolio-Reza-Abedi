@@ -224,6 +224,11 @@ nav:hover a{
     align-items: center;
     justify-content: center;
     font-size: 15px;
+    margin-top: 50px;
+}
+.link{
+    text-decoration: none;
+    color: black;
 }
 .fa-download{
     color: #000;
